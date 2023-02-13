@@ -4,7 +4,7 @@
 
 def rotate_2d_matrix(matrix):
     '''rotates a 2d matrix 90° clockwise
-    Returns: Nothing'''
+    Returns: Nothing '''
     left, right = 0, len(matrix) - 1
 
     while left < right:
